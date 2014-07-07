@@ -14,26 +14,22 @@ Tools and Environment:
 
 ## Architecture
 
-| AVL.aspx <br />
-| | AVL.aspex.cs <br />
-| <br />
-| Site.master <br />
-| | Site.master <br />
-| <br />
-| /js <br />
-| | viewer <br />
-| | | AVLDisplay.js <br />
-| | | AVLQuery.js <br />
-| <br />
-| /lib <br />
-| | Highcharts <br />
-| | jquery-plot <br />
-| | jquery-UI <br />
-| <br />
-| /Styles <br />
-| <br />
-| /App_Data <br />
-| | patroller_routes.txt <br />
+.
++-- AVL.aspx
+| +-- AVL.aspex.cs 
++-- Site.master 
+| +-- Site.master 
++-- /js 
+| +-- viewer 
+| | +-- AVLDisplay.js 
+| | +-- AVLQuery.js 
++-- /lib 
+| +-- Highcharts 
+| +-- jquery 
+| +-- jquery-UI 
++-- /Styles 
++-- /App_Data 
+| +-- patroller_routes.txt 
 
 ### AVL.aspx
 The main UI page that devlivers the functions to users in front-end.
