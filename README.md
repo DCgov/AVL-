@@ -14,6 +14,7 @@ Tools and Environment:
 
 ## Architecture
 
+<pre>
 .
 +-- AVL.aspx
 | +-- AVL.aspex.cs 
@@ -30,6 +31,7 @@ Tools and Environment:
 +-- /Styles 
 +-- /App_Data 
 | +-- patroller_routes.txt 
+</pre>
 
 ### AVL.aspx
 The main UI page that devlivers the functions to users in front-end.
